@@ -1,6 +1,9 @@
 from build123d import *
 from ocp_vscode import show_object
 
+
+# CAD file for a replacement knob for the window roller in a 1981 Dodge Ram Campervan.
+
 # Constants
 # Knob Dimensions
 KNOB_DIAMETER = 35.0
@@ -8,8 +11,8 @@ KNOB_HEIGHT = 20.0
 
 # Screw and Hole Dimensions
 SCREW_HOLE_DIAMETER = 3.7  # Approx diameter for a #6 screw
-SCREW_HEAD_DIAMETER = 13.0
-INSERTION_DEPTH = 15.0
+SCREW_HEAD_DIAMETER = 8.0
+INSERTION_DEPTH =35.0
 
 # Backing Dimensions
 BACKING_FLANGE_DIAMETER = 15.0
@@ -18,10 +21,6 @@ HEX_NUT_FLAT_TO_FLAT = 10.0  # Approx size for #6 nut
 HEX_NUT_DEPTH = 2.5  # Depth of the hex pocket
 
 # Fillet Radius
-FILLET_RADIUS = 2.0  # Radius for fillets
-
-KNOB_DIAMETER = 35.0
-KNOB_HEIGHT = 20.0
 FILLET_RADIUS = 2.0
 
 with BuildPart() as knob:
